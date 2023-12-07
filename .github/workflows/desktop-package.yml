@@ -207,6 +207,7 @@ jobs:
           --icon-size 120 \
           --icon SyncClipboard.app 165 175 \
           --app-drop-link 495 175 \
+          --filesystem APFS \
           SyncClipboard.dmg SyncClipboard.app
         working-directory: ./build/macos
 
